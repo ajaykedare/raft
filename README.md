@@ -17,20 +17,20 @@ The basic idea to develope this has taken from paper disucssed above with some m
 1. Start a file system
 
     ```
-    > cd $GOPATH/src/github.com/kedareab/cs733/assignment4
+    > cd $GOPATH/src/github.com/kedareab/raft
     > go build
-    > ./assignment4 100 &
-    > ./assignment4 200 &
-    > ./assignment4 300 &
-    > ./assignment4 400 &
-    > ./assignment4 500 &
+    > ./raft 100 &
+    > ./raft 200 &
+    > ./raft 300 &
+    > ./raft 400 &
+    > ./raft 500 &
      ```
 
 2. Start a making requests to file server
 
 * A user friendly client program as
      ```
-    > cd $GOPATH/src/github.com/kedareab/cs733/assignment4/client
+    > cd $GOPATH/src/github.com/kedareab/raft/client
     > go build
     > ./client localhost 8001
     ```
@@ -59,8 +59,8 @@ The basic idea to develope this has taken from paper disucssed above with some m
 
 #Installation
 ```
-    go get github.com/kedareab/cs733/assignment4
-    go test github.com/kedareab/cs733/assignment4
+    go get github.com/kedareab/raft
+    go test github.com/kedareab/raft
 ```
 
 # Command Specification and valid responses
