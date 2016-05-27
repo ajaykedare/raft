@@ -1,0 +1,37 @@
+{
+  "Id":100,
+  "LogDir":"Log",
+  "PersistenceStateDir":"raftnode/PersistenceStateFiles",
+  "ElectionTimeout":3000,
+  "HeartbeatTimeout":500,
+  "InboxSize": 5000,
+  "OutboxSize":5000,
+  "Clientports":[8001,8002,8003,8004,8006],
+  "Cluster":[
+    {
+      "Id": 100,
+      "Host": "localhost",
+      "Port": 9001
+    },
+    {
+      "Id": 200,
+      "Host": "localhost",
+      "Port": 9002
+    },
+    {
+      "Id": 300,
+      "Host": "localhost",
+      "Port": 9003
+    },
+    {
+      "Id": 400,
+      "Host": "localhost",
+      "Port": 9004
+    },
+    {
+      "Id": 500,
+      "Host": "localhost",
+      "Port": 9005
+    }
+  ]
+}
