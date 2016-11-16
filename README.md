@@ -1,4 +1,4 @@
-# A replicated filesystem using raft
+# A Replicated Filesystem Using Raft
 
 
 # Description
